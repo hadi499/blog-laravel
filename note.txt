@@ -1,1 +1,7 @@
 install clockwork from https://github.com/itsgoingd/clockwork
+
+paginate default pakai tailwind
+
+ubah ke bootstrap
+app -> Providers -> AppServiceProvider
+tambahkan di boot Paginator::useBootstrap();
